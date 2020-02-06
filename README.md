@@ -45,3 +45,7 @@ docker-compose -f docker-compose-prod.yml down -v --rmi local
 ```
 
 Nothing new here.
+
+### Next steps
+
+I plan on making this even simpler for people to tear up and down in the future by writing scripts to start and stop the containers.
