@@ -38,6 +38,8 @@ docker-compose -f docker-compose-prod.yml up --build -d
 
 Fire up the container. The _-f_ flag let’s you select a specific **docker-compose** file to run, in our case the `docker-compose-prod.yml`. We have already learnt the _up_ flag starts the container. The _-d_ flag runs the container in detach mode (no interactive cli) and the _—- build_ flag rebuilds the container. Once again make sure you kill anything running on **port 3000**
 
+Navigate to `http://localhost:3000/` in your browser to see your production build.
+
 #### Clean Up
 
 ```
